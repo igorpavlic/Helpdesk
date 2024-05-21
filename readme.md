@@ -1,4 +1,5 @@
 # Helpdesk
+![alt text](https://github.com/igorpavlic/Helpdesk/blob/main/banner.png)
 Helpdesk je aplikacija za upravljanje zahtjevima.  
 Kroz nju tehničar može otvarati i uređivati zahtjev i tako poboljšati evidenciju svojega radnog vremena.  
 Zahtjevi se mogu filtrirati po statusu i dodijeljenosti te tehničar u svakom trenutku može vidjeti koje zahtjeve još nije preuzeo i njihov status.  
@@ -14,7 +15,7 @@ git clone https://github.com/igorpavlic/Helpdesk
 cd Helpdesk
 ```
 ```
-docker build -t Helpdesk .
+docker build -t helpdesk .
 docker ps
-docker run -p 5000:5000 Helpdesk
+docker run -p 5000:5000 helpdesk
 ```
