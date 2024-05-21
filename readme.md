@@ -7,10 +7,10 @@
 ```
 cd ~/Downloads
 git clone https://github.com/igorpavlic/Helpdesk
-cd booker
+cd Helpdesk
 ```
 ```
-docker build -t helpdesk .
+docker build -t Helpdesk .
 docker ps
-docker run -p 5000:5000 helpdesk
+docker run -p 5000:5000 Helpdesk
 ```
