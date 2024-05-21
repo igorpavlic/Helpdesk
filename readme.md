@@ -1,7 +1,7 @@
 # Helpdesk
 
 ## UseCase dijagram
-![alt text](https://github.com/igorpavlic/Helpdesk/blob/main/Booker.jpeg)
+![alt text](https://github.com/igorpavlic/Helpdesk/blob/main/helpdesk.png)
 
 ## Instalacija
 ```
