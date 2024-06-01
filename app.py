@@ -83,7 +83,7 @@ def modify_request(request_id):
             return redirect(url_for('index'))
     return render_template('modify_request.html', request=request_obj)
 
-# Ruta za prikaz izvještaja
+# Stranica za prikaz izvještaja
 @app.route('/report')
 def report():
     with db_session:
