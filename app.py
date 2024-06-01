@@ -48,14 +48,12 @@ def index():
     with db_session:
         status_filter = request.args.get('status')
         assigned_filter = request.args.get('assigned')
-
         requests = Request.select()
         if status_filter:
             requests = requests.filter(lambda r: r.status == status_filter)
         if assigned_filter:
             assigned_bool = assigned_filter.lower() == 'true'
             requests = requests.filter(lambda r: r.assigned == assigned_bool)
-
         return render_template('index.html', requests=requests, status_filter=status_filter, assigned_filter=assigned_filter)
 
 # Stranica za otvaranje novog zahtjeva
