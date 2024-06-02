@@ -8,6 +8,26 @@ Na raspolaganju mu je i izvještaj zahtjeva prema statusu.
 ## UseCase dijagram
 ![alt text](https://github.com/igorpavlic/Helpdesk/blob/main/helpdesk.png)
 
+Use Case: Helpdesk
+Glumac
+	Tehničar: Osoba koja koristi sistem za upravljanje zahtjevima.
+Cilj
+	Upravljati zahtjevima. Otvaranje, pregledavanje, dodjeljivanje i promjena statusa zahtjeva.
+
+Glavni tok
+	Otvaranje zahtjeva
+		Tehničar otvara novi zahtjev u Helpdesku.
+		Sustav sprema podatke o novom zahtjevu.
+	Uređivanje zahtjeva
+		Tehničar pregledava detalje postojećeg zahtjeva.
+		Sustav prikazuje sve relevantne informacije o zahtjevu.
+
+		Tehničar si dodijeljuje zahtjev, mijenja status zahtjeva (npr. iz "U tijeku" u "Zatvoreno"), zatvara zahtjev nakon što je riješen.
+		Sustav bilježi sve promjene u zahtjevu.
+	Filtriranje Zahtjeva
+		Tehničar izabire filter pregleda zahtjeva prema statusu i/ili dodijeljenosti.
+		Sustav prikazuje zahtjeve prema izabranom filteru.
+
 ## Instalacija
 ```
 cd ~/Downloads
