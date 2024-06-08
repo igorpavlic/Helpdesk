@@ -13,9 +13,6 @@ body {
     color: #555 !important; 
 }
 
-div {
-    display: flex;
-
 a {
     color: #2e5a94;
     text-decoration: underline;
