@@ -15,7 +15,6 @@
 
         <form action="/" method="GET">
             <div class="form-row">
-                <div class="col-md-4 mb-3">
                     <label for="status">Filtriraj Status:</label>
                     <select class="form-control" name="status" id="status">
                         <option value="">Svi</option>
@@ -23,18 +22,13 @@
                         <option value="U tijeku" {% if status_filter == 'U tijeku' %}selected{% endif %}>U tijeku</option>
                         <option value="Zatvoren" {% if status_filter == 'Zatvoren' %}selected{% endif %}>Zatvoreni</option>
                     </select>
-                </div>
-                <div class="col-md-4 mb-3">
                     <label for="assigned">Filtriraj dodijeljenost</label>
                     <select class="form-control" name="assigned" id="assigned">
                         <option value="">Svi</option>
                         <option value="true" {% if assigned_filter == 'true' %}selected{% endif %}>Dodijeljen</option>
                         <option value="false" {% if assigned_filter == 'false' %}selected{% endif %}>Nije dodijeljen</option>
                     </select>
-                </div>
-                <div class="col-md-2 mb-3">
                     <button type="submit" class="btn btn-primary">Filtriraj</button>
-                </div>
             </div>
         </form>
 
