@@ -13,6 +13,11 @@ body {
     color: #555 !important; 
 }
 
+.col-md-4 {
+     display: inline-block;
+}
+
+
 a {
     color: #2e5a94;
     text-decoration: underline;
@@ -21,13 +26,10 @@ a:hover {
     color: #2e6fb9;
 }
 
-.col-md-4 {
-     display: inline-block;
-}
-
 .form-group {
     margin-bottom: .50rem;
 }
+    
 .btn {
     margin: .0rem;
 }
