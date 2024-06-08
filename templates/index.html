@@ -46,18 +46,16 @@
                     <th>Opis</th>
                     <th>Dodijeljen</th>
                     <th>Status</th>
-                    <th></th>
                 </tr>
             </thead>
             <tbody>
                 {% for request in requests %}
                 <tr>
                     <td>{{ request.id }}</td>
-                     <td><a href="/modify_request/{{ request.id }}">{{ request.title }}</a></td>
+                    <td><a href="/modify_request/{{ request.id }}">{{ request.title }}</a></td>
                     <td>{{ request.description }}</td>
                     <td>{{ "Da" if request.assigned else "Ne" }}</td>
                     <td>{{ request.status }}</td>
-                    <td><a href="/modify_request/{{ request.id }}" class="btn btn-sm btn-primary">Uredi</a></td>
                 </tr>
                 {% endfor %}
             </tbody>
