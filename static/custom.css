@@ -17,6 +17,10 @@ a {
     color: #2e5a94;
     text-decoration: underline;
 
+a:hover {
+    color: #2e6fb9;
+}
+
 .col-md-4 {
      display: inline-block;
 }
