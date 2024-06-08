@@ -53,7 +53,7 @@
                 {% for request in requests %}
                 <tr>
                     <td>{{ request.id }}</td>
-                    <td>{{ request.title }}</td>
+                     <td><a href="/modify_request/{{ request.id }}" class="btn btn-sm btn-primary"></a>{{ request.title }}</a></td>
                     <td>{{ request.description }}</td>
                     <td>{{ "Da" if request.assigned else "Ne" }}</td>
                     <td>{{ request.status }}</td>
